@@ -1,9 +1,9 @@
+/* eslint-disable no-console */
 function getNumber (min, max) {
   const randomNumber = Math.random();
 
   if (min > max  ) {
-    const alertError = 'Ошибка';
-    return alertError;
+    console.log('Ошибка');
   }
 
   if (min <= max && min >= 0) {
